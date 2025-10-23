@@ -11,6 +11,15 @@ Utiliza el poder de **MediaPipe** para el rastreo de manos en tiempo real y **Op
 * **Interfaz Superpuesta:** Muestra la lista de canciones paginada, la canción actual resaltada y la carátula de la canción directamente en la ventana de video.
 * **Arquitectura Modular:** El código está organizado en clases (`HandDetector`, `MusicPlayer`, `UIManager`, `GestureController`) para facilitar el mantenimiento y la expansión.
 
+##Controles/Gestos
+
+Gesto,Dedos Levantados,Acción
+Puño Cerrado (✊),0,Pausar / Reanudar la reproducción.
+Dedo Índice (👆),1,Siguiente Canción.
+Dos Dedos (✌️),2,Canción Anterior.
+Tres Dedos,3,Página Siguiente (en la lista de canciones).
+Cuatro Dedos,4,Página Anterior (en la lista de canciones).
+
 ## ⚙️ Requisitos y Configuración
 
 ### 1. Requisitos de Python
@@ -20,9 +29,4 @@ Necesitas tener **Python 3.x** instalado. Luego, instala las librerías necesari
 ```bash
 pip install opencv-python mediapipe pygame numpy
 
-Gesto,Dedos Levantados,Acción
-Puño Cerrado (✊),0,Pausar / Reanudar la reproducción.
-Dedo Índice (👆),1,Siguiente Canción.
-Dos Dedos (✌️),2,Canción Anterior.
-Tres Dedos,3,Página Siguiente (en la lista de canciones).
-Cuatro Dedos,4,Página Anterior (en la lista de canciones).
+
