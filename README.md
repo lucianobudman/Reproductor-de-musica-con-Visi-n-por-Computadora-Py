@@ -19,3 +19,10 @@ Necesitas tener **Python 3.x** instalado. Luego, instala las librerías necesari
 
 ```bash
 pip install opencv-python mediapipe pygame numpy
+
+Gesto,Dedos Levantados,Acción
+Puño Cerrado (✊),0,Pausar / Reanudar la reproducción.
+Dedo Índice (👆),1,Siguiente Canción.
+Dos Dedos (✌️),2,Canción Anterior.
+Tres Dedos,3,Página Siguiente (en la lista de canciones).
+Cuatro Dedos,4,Página Anterior (en la lista de canciones).
