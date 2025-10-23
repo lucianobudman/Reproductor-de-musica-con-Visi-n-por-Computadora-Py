@@ -14,7 +14,7 @@ Utiliza el poder de **MediaPipe** para el rastreo de manos en tiempo real y **Op
 ##Controles/Gestos
 
 Gesto,Dedos Levantados,Acción
-Puño Cerrado (✊),0,Pausar / Reanudar la reproducción.
+Puño Cerrado (✊), 0 ,Pausar / Reanudar la reproducción.
 Dedo Índice (👆),1,Siguiente Canción.
 Dos Dedos (✌️),2,Canción Anterior.
 Tres Dedos,3,Página Siguiente (en la lista de canciones).
