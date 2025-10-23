@@ -13,12 +13,12 @@ Utiliza el poder de **MediaPipe** para el rastreo de manos en tiempo real y **Op
 
 ##Controles/Gestos
 
-Gesto,Dedos Levantados,Acción
-Puño Cerrado (✊), 0 ,Pausar / Reanudar la reproducción.
-Dedo Índice (👆),1,Siguiente Canción.
-Dos Dedos (✌️),2,Canción Anterior.
-Tres Dedos,3,Página Siguiente (en la lista de canciones).
-Cuatro Dedos,4,Página Anterior (en la lista de canciones).
+Gesto	Dedos Levantados	Acción
+Puño Cerrado (✊)	0	Pausar / Reanudar la reproducción.
+Dedo Índice (👆)	1	Siguiente Canción.
+Dos Dedos (✌️)	2	Canción Anterior.
+Tres Dedos	3	Página Siguiente (en la lista de canciones).
+Cuatro Dedos	4	Página Anterior (en la lista de canciones).
 
 ## ⚙️ Requisitos y Configuración
 
